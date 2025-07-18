@@ -18,6 +18,7 @@ This repository contains two sets of data: `generated_feedback.jsonl` and `human
     - `story`: The input story
     - `gold_story`: The original story (before corruption)
     - `feedback`: The generated feedback
+    - `example_id`: A unique identifier for the piece of generated feedback
     - various automatic metrics: The remaining fields are automatic metrics describing the feedback
 
 - `human_ratings.jsonl`: A subset of the generated feedback that has human annotations. In addition to the above fields, it contains:
